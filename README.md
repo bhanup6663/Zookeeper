@@ -1,4 +1,4 @@
-# clone this repo and run following commands after making sure docker daemon is running
+### clone this repo and run following commands after making sure docker daemon is running
 
 ```
 docker build -t my-zookeeper-image .
