@@ -14,5 +14,5 @@ docker ps
 
 Once you have identified the container, use the docker exec command followed by the container ID or name and the shell you want to use
 ```
-docker exec -it zookeper /bin/bash
+docker exec -it <container_id_or_name> /bin/bash
 ```
