@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jdk-alpine
 
 # Copy ZooKeeper package to the container
 COPY apache-zookeeper-3.8.1-bin.tar.gz /tmp/
