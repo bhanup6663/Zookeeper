@@ -1,4 +1,4 @@
-## Zookeeper usage of docker
+## Zookeeper usage using docker
 
 1. Clone this repo and run following commands after making sure docker daemon is running
 
