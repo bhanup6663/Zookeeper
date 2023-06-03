@@ -1,5 +1,9 @@
 FROM openjdk:8-jdk-alpine
 
+# Install Maven
+RUN apk update && \
+    apk add --no-cache maven
+
 # Copy ZooKeeper package to the container
 COPY apache-zookeeper-3.8.1-bin.tar.gz /tmp/
 
