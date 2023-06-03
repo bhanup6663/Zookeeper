@@ -4,7 +4,7 @@
 
 ```
 docker build -t my-zookeeper-image .
-docker run -d --name my-zookeeper-container my-zookeeper-image
+docker run -v /Users/bhanuprakash/Documents/DSD/Zookeeper/data/:/root -d --name my-zookeeper-container my-zookeeper-image
 ```
 
 2. Docker desktop could also be used for running the docker container

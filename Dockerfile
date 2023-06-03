@@ -24,4 +24,4 @@ WORKDIR $ZOOKEEPER_HOME
 COPY zoo.cfg $ZOOKEEPER_HOME/conf/
 
 # Start ZooKeeper
-CMD ["bin/zkServer.sh", "start-foreground"]
+CMD ["./bin/zkServer.sh", "start-foreground"]
